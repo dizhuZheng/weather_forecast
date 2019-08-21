@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Weather Forecast</string>
+    <string name="title_activity_show_info">dizhu</string>
+    <string-array name="options">
+    <item name="app_name">Weather Forecast</item>
+    <item name="weather">Weather</item>
+    <item name="temperature">Temperature</item>
+    <item name="humidity">Humidity</item>
+    <item name="sunrise">Sunrise/Sunset</item>
+    <item name="tem_range">Temp Range</item>
+    <item name="wind_speed">Wind Speed</item>
+    <item name="location">Location</item>
+    <item name="descript"></item>
+    <item name="time"></item>
+    <item name="title_activity_show_info">ShowInfoActivity</item>
+    </string-array>
+</resources>
