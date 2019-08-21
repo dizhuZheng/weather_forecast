@@ -1,6 +1,7 @@
 <resources>
     <string name="app_name">Weather Forecast</string>
     <string name="location">Mahatten</string>
+    <string name="sentence">Happy Everyday !</string>
     <string name="time"></string>
     <string name="title_activity_show_info">dizhu</string>
     <string-array name="options">

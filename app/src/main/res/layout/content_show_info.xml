@@ -6,13 +6,30 @@
     android:padding="16dp"
     android:orientation="horizontal"
     tools:context="com.hfad.weather_forecast.ShowInfoActivity">
-    <TextView
+    <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_gravity="left"
-        android:text="@string/location"
-        android:textSize="33dp"
-        android:textColor="@color/colorPurple"/>
+        android:orientation="vertical"
+        android:layout_gravity="right"
+        android:layout_weight="1"
+        android:padding="6dp" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:text="@string/location"
+            android:textSize="33dp"
+            android:textColor="@color/colorPurple"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:text="@string/sentence"
+
+            android:textSize="15dp"
+            android:textColor="@color/colorRed"/>
+    </LinearLayout>
 
     <LinearLayout
         android:layout_width="wrap_content"
@@ -43,6 +60,7 @@
 
             android:textColor="@color/colorYellow"
             android:textSize="@dimen/w_56" />
+
     </LinearLayout>
 </LinearLayout>
 
